@@ -1,4 +1,13 @@
-# ESP8266 Mobile Rick Roll Captive Portal
+# ESP8266 Mobile Rick Roll Captive Portal (German)
+## Fixed Code
+The issue when trying to upload the code:
+
+`'ConvertFromJson' was not declared in this scope`
+
+has been fixed. It was caused by a code breaking change in the AurdinoJSON Library, the code is now not using the newest library (which will break the code) instead it is using 6.11.1
+
+furthermore the fixed USB Port for uploading has been disabled so that the auto detection works when uploading. 
+
 ### Live Chat
 [![Gitter](https://badges.gitter.im/idolpx/mobile-rr.svg)](https://gitter.im/idolpx/mobile-rr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
